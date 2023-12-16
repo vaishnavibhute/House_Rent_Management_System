@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[TenantTb1]
+(
+	[TenId] INT NOT NULL PRIMARY KEY IDENTITY(1000,1), 
+    [TenName] VARCHAR(50) NOT NULL, 
+    [TenPhone] VARCHAR(50) NOT NULL, 
+    [TenGen] VARCHAR(50) NOT NULL
+)

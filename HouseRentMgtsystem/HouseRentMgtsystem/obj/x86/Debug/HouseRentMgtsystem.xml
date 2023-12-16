@@ -1,0 +1,3196 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+HouseRentMgtsystem
+</name>
+</assembly>
+<members>
+<member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet3.ApartTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet3.CategoryTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet3.LandLordsTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet3.RentTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet3.TenantTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet3.ApartTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet3.CategoryTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet3.LandLordsTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet3.RentTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet3.TenantTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet3.ApartTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet3.CategoryTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet3.LandLordsTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet3.RentTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet3.TenantTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet3TableAdapters.ApartTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet3TableAdapters.CategoryTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet3TableAdapters.LandLordsTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet3TableAdapters.RentTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet3TableAdapters.TenantTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(HouseRentMgtsystem.houserentmgtsystemDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(HouseRentMgtsystem.houserentmgtsystemDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(HouseRentMgtsystem.houserentmgtsystemDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet3TableAdapters.TableAdapterManager.UpdateAll(HouseRentMgtsystem.houserentmgtsystemDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet6.ApartTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet6.CategoryTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet6.LandLordsTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet6.RentTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet6.TenantTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet6.ApartTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet6.CategoryTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet6.LandLordsTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet6.RentTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet6.TenantTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet6.ApartTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet6.CategoryTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet6.LandLordsTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet6.RentTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet6.TenantTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet6">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet6TableAdapters.ApartTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet6TableAdapters.CategoryTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet6TableAdapters.LandLordsTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet6TableAdapters.RentTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet6TableAdapters.TenantTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(HouseRentMgtsystem.houserentmgtsystemDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(HouseRentMgtsystem.houserentmgtsystemDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(HouseRentMgtsystem.houserentmgtsystemDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet6TableAdapters.TableAdapterManager.UpdateAll(HouseRentMgtsystem.houserentmgtsystemDataSet6)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet6TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet9.ApartTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet9.CategoryTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet9.LandLordsTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet9.RentTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet9.TenantTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet9.ApartTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet9.CategoryTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet9.LandLordsTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet9.RentTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet9.TenantTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet9.ApartTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet9.CategoryTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet9.LandLordsTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet9.RentTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet9.TenantTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet9">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet9TableAdapters.ApartTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet9TableAdapters.CategoryTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet9TableAdapters.LandLordsTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet9TableAdapters.RentTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet9TableAdapters.TenantTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet9TableAdapters.TableAdapterManager.UpdateUpdatedRows(HouseRentMgtsystem.houserentmgtsystemDataSet9,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet9TableAdapters.TableAdapterManager.UpdateInsertedRows(HouseRentMgtsystem.houserentmgtsystemDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet9TableAdapters.TableAdapterManager.UpdateDeletedRows(HouseRentMgtsystem.houserentmgtsystemDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet9TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet9TableAdapters.TableAdapterManager.UpdateAll(HouseRentMgtsystem.houserentmgtsystemDataSet9)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet9TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet9TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet9TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet11.ApartTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet11.CategoryTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet11.LandLordsTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet11.RentTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet11.TenantTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet11.ApartTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet11.CategoryTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet11.LandLordsTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet11.RentTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet11.TenantTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet11.ApartTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet11.CategoryTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet11.LandLordsTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet11.RentTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet11.TenantTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet11">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet11TableAdapters.ApartTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet11TableAdapters.CategoryTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet11TableAdapters.LandLordsTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet11TableAdapters.RentTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet11TableAdapters.TenantTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet11TableAdapters.TableAdapterManager.UpdateUpdatedRows(HouseRentMgtsystem.houserentmgtsystemDataSet11,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet11TableAdapters.TableAdapterManager.UpdateInsertedRows(HouseRentMgtsystem.houserentmgtsystemDataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet11TableAdapters.TableAdapterManager.UpdateDeletedRows(HouseRentMgtsystem.houserentmgtsystemDataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet11TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet11TableAdapters.TableAdapterManager.UpdateAll(HouseRentMgtsystem.houserentmgtsystemDataSet11)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet11TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet11TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet11TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet14.ApartTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet14.CategoryTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet14.LandLordsTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet14.RentTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet14.TenantTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet14.ApartTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet14.CategoryTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet14.LandLordsTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet14.RentTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet14.TenantTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet14.ApartTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet14.CategoryTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet14.LandLordsTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet14.RentTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet14.TenantTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet14">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet14TableAdapters.ApartTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet14TableAdapters.CategoryTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet14TableAdapters.LandLordsTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet14TableAdapters.RentTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet14TableAdapters.TenantTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet14TableAdapters.TableAdapterManager.UpdateUpdatedRows(HouseRentMgtsystem.houserentmgtsystemDataSet14,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet14TableAdapters.TableAdapterManager.UpdateInsertedRows(HouseRentMgtsystem.houserentmgtsystemDataSet14,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet14TableAdapters.TableAdapterManager.UpdateDeletedRows(HouseRentMgtsystem.houserentmgtsystemDataSet14,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet14TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet14TableAdapters.TableAdapterManager.UpdateAll(HouseRentMgtsystem.houserentmgtsystemDataSet14)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet14TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet14TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet14TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet17.ApartTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet17.CategoryTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet17.LandLordsTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet17.RentTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet17.TenantTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet17.ApartTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet17.CategoryTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet17.LandLordsTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet17.RentTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet17.TenantTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet17.ApartTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet17.CategoryTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet17.LandLordsTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet17.RentTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet17.TenantTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet17">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet17TableAdapters.ApartTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet17TableAdapters.CategoryTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet17TableAdapters.LandLordsTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet17TableAdapters.RentTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet17TableAdapters.TenantTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet17TableAdapters.TableAdapterManager.UpdateUpdatedRows(HouseRentMgtsystem.houserentmgtsystemDataSet17,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet17TableAdapters.TableAdapterManager.UpdateInsertedRows(HouseRentMgtsystem.houserentmgtsystemDataSet17,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet17TableAdapters.TableAdapterManager.UpdateDeletedRows(HouseRentMgtsystem.houserentmgtsystemDataSet17,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet17TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet17TableAdapters.TableAdapterManager.UpdateAll(HouseRentMgtsystem.houserentmgtsystemDataSet17)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet17TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet17TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet17TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet2.ApartTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet2.CategoryTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet2.LandLordsTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet2.RentTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet2.TenantTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet2.ApartTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet2.CategoryTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet2.LandLordsTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet2.RentTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet2.TenantTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet2.ApartTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet2.CategoryTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet2.LandLordsTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet2.RentTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet2.TenantTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet2TableAdapters.ApartTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet2TableAdapters.CategoryTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet2TableAdapters.LandLordsTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet2TableAdapters.RentTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet2TableAdapters.TenantTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(HouseRentMgtsystem.houserentmgtsystemDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(HouseRentMgtsystem.houserentmgtsystemDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(HouseRentMgtsystem.houserentmgtsystemDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet2TableAdapters.TableAdapterManager.UpdateAll(HouseRentMgtsystem.houserentmgtsystemDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet24.ApartTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet24.CategoryTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet24.LandLordsTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet24.RentTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet24.TenantTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet24.ApartTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet24.CategoryTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet24.LandLordsTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet24.RentTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet24.TenantTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet24.ApartTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet24.CategoryTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet24.LandLordsTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet24.RentTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet24.TenantTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet24">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet24TableAdapters.ApartTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet24TableAdapters.CategoryTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet24TableAdapters.LandLordsTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet24TableAdapters.RentTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet24TableAdapters.TenantTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet24TableAdapters.TableAdapterManager.UpdateUpdatedRows(HouseRentMgtsystem.houserentmgtsystemDataSet24,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet24TableAdapters.TableAdapterManager.UpdateInsertedRows(HouseRentMgtsystem.houserentmgtsystemDataSet24,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet24TableAdapters.TableAdapterManager.UpdateDeletedRows(HouseRentMgtsystem.houserentmgtsystemDataSet24,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet24TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet24TableAdapters.TableAdapterManager.UpdateAll(HouseRentMgtsystem.houserentmgtsystemDataSet24)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet24TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet24TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet24TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:HouseRentMgtsystem.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:HouseRentMgtsystem.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:HouseRentMgtsystem.My.Resources.Resources.download">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HouseRentMgtsystem.My.Resources.Resources.download__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HouseRentMgtsystem.My.Resources.Resources.download__2_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HouseRentMgtsystem.My.Resources.Resources.images">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HouseRentMgtsystem.My.Resources.Resources.images__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HouseRentMgtsystem.My.Resources.Resources.images__1_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HouseRentMgtsystem.My.Resources.Resources.images__3_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HouseRentMgtsystem.My.Resources.Resources.images__3_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HouseRentMgtsystem.My.Resources.Resources.images1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HouseRentMgtsystem.My.Resources.Resources.images2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:HouseRentMgtsystem.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet20.ApartTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet20.CategoryTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet20.LandLordsTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet20.RentTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet20.TenantTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet20.ApartTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet20.CategoryTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet20.LandLordsTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet20.RentTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet20.TenantTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet20.ApartTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet20.CategoryTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet20.LandLordsTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet20.RentTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet20.TenantTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet20">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet20TableAdapters.ApartTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet20TableAdapters.CategoryTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet20TableAdapters.LandLordsTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet20TableAdapters.RentTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet20TableAdapters.TenantTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet20TableAdapters.TableAdapterManager.UpdateUpdatedRows(HouseRentMgtsystem.houserentmgtsystemDataSet20,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet20TableAdapters.TableAdapterManager.UpdateInsertedRows(HouseRentMgtsystem.houserentmgtsystemDataSet20,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet20TableAdapters.TableAdapterManager.UpdateDeletedRows(HouseRentMgtsystem.houserentmgtsystemDataSet20,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet20TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet20TableAdapters.TableAdapterManager.UpdateAll(HouseRentMgtsystem.houserentmgtsystemDataSet20)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet20TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet20TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet20TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet23.ApartTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet23.CategoryTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet23.LandLordsTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet23.RentTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet23.TenantTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet23.ApartTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet23.CategoryTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet23.LandLordsTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet23.RentTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet23.TenantTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet23.ApartTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet23.CategoryTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet23.LandLordsTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet23.RentTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet23.TenantTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet23">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet23TableAdapters.ApartTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet23TableAdapters.CategoryTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet23TableAdapters.LandLordsTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet23TableAdapters.RentTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet23TableAdapters.TenantTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet23TableAdapters.TableAdapterManager.UpdateUpdatedRows(HouseRentMgtsystem.houserentmgtsystemDataSet23,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet23TableAdapters.TableAdapterManager.UpdateInsertedRows(HouseRentMgtsystem.houserentmgtsystemDataSet23,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet23TableAdapters.TableAdapterManager.UpdateDeletedRows(HouseRentMgtsystem.houserentmgtsystemDataSet23,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet23TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet23TableAdapters.TableAdapterManager.UpdateAll(HouseRentMgtsystem.houserentmgtsystemDataSet23)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet23TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet23TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet23TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet26.ApartTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet26.CategoryTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet26.LandLordsTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet26.RentTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet26.TenantTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet26.ApartTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet26.CategoryTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet26.LandLordsTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet26.RentTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet26.TenantTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet26.ApartTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet26.CategoryTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet26.LandLordsTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet26.RentTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet26.TenantTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet26">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet26TableAdapters.ApartTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet26TableAdapters.CategoryTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet26TableAdapters.LandLordsTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet26TableAdapters.RentTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet26TableAdapters.TenantTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet26TableAdapters.TableAdapterManager.UpdateUpdatedRows(HouseRentMgtsystem.houserentmgtsystemDataSet26,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet26TableAdapters.TableAdapterManager.UpdateInsertedRows(HouseRentMgtsystem.houserentmgtsystemDataSet26,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet26TableAdapters.TableAdapterManager.UpdateDeletedRows(HouseRentMgtsystem.houserentmgtsystemDataSet26,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet26TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet26TableAdapters.TableAdapterManager.UpdateAll(HouseRentMgtsystem.houserentmgtsystemDataSet26)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet26TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet26TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet26TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet5.ApartTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet5.CategoryTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet5.LandLordsTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet5.RentTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet5.TenantTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet5.ApartTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet5.CategoryTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet5.LandLordsTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet5.RentTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet5.TenantTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet5.ApartTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet5.CategoryTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet5.LandLordsTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet5.RentTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet5.TenantTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet5">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet5TableAdapters.ApartTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet5TableAdapters.CategoryTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet5TableAdapters.LandLordsTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet5TableAdapters.RentTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet5TableAdapters.TenantTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(HouseRentMgtsystem.houserentmgtsystemDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(HouseRentMgtsystem.houserentmgtsystemDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(HouseRentMgtsystem.houserentmgtsystemDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet5TableAdapters.TableAdapterManager.UpdateAll(HouseRentMgtsystem.houserentmgtsystemDataSet5)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet5TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet8.ApartTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet8.CategoryTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet8.LandLordsTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet8.RentTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet8.TenantTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet8.ApartTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet8.CategoryTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet8.LandLordsTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet8.RentTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet8.TenantTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet8.ApartTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet8.CategoryTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet8.LandLordsTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet8.RentTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet8.TenantTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet8">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet8TableAdapters.ApartTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet8TableAdapters.CategoryTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet8TableAdapters.LandLordsTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet8TableAdapters.RentTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet8TableAdapters.TenantTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet8TableAdapters.TableAdapterManager.UpdateUpdatedRows(HouseRentMgtsystem.houserentmgtsystemDataSet8,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet8TableAdapters.TableAdapterManager.UpdateInsertedRows(HouseRentMgtsystem.houserentmgtsystemDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet8TableAdapters.TableAdapterManager.UpdateDeletedRows(HouseRentMgtsystem.houserentmgtsystemDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet8TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet8TableAdapters.TableAdapterManager.UpdateAll(HouseRentMgtsystem.houserentmgtsystemDataSet8)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet8TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet8TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet8TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet10.ApartTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet10.CategoryTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet10.LandLordsTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet10.RentTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet10.TenantTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet10.ApartTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet10.CategoryTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet10.LandLordsTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet10.RentTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet10.TenantTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet10.ApartTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet10.CategoryTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet10.LandLordsTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet10.RentTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet10.TenantTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet10">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet10TableAdapters.ApartTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet10TableAdapters.CategoryTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet10TableAdapters.LandLordsTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet10TableAdapters.RentTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet10TableAdapters.TenantTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet10TableAdapters.TableAdapterManager.UpdateUpdatedRows(HouseRentMgtsystem.houserentmgtsystemDataSet10,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet10TableAdapters.TableAdapterManager.UpdateInsertedRows(HouseRentMgtsystem.houserentmgtsystemDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet10TableAdapters.TableAdapterManager.UpdateDeletedRows(HouseRentMgtsystem.houserentmgtsystemDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet10TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet10TableAdapters.TableAdapterManager.UpdateAll(HouseRentMgtsystem.houserentmgtsystemDataSet10)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet10TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet10TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet10TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet13.ApartTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet13.CategoryTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet13.LandLordsTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet13.RentTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet13.TenantTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet13.ApartTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet13.CategoryTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet13.LandLordsTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet13.RentTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet13.TenantTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet13.ApartTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet13.CategoryTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet13.LandLordsTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet13.RentTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet13.TenantTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet13">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet13TableAdapters.ApartTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet13TableAdapters.CategoryTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet13TableAdapters.LandLordsTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet13TableAdapters.RentTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet13TableAdapters.TenantTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet13TableAdapters.TableAdapterManager.UpdateUpdatedRows(HouseRentMgtsystem.houserentmgtsystemDataSet13,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet13TableAdapters.TableAdapterManager.UpdateInsertedRows(HouseRentMgtsystem.houserentmgtsystemDataSet13,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet13TableAdapters.TableAdapterManager.UpdateDeletedRows(HouseRentMgtsystem.houserentmgtsystemDataSet13,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet13TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet13TableAdapters.TableAdapterManager.UpdateAll(HouseRentMgtsystem.houserentmgtsystemDataSet13)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet13TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet13TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet13TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet16.ApartTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet16.CategoryTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet16.LandLordsTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet16.RentTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet16.TenantTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet16.ApartTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet16.CategoryTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet16.LandLordsTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet16.RentTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet16.TenantTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet16.ApartTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet16.CategoryTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet16.LandLordsTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet16.RentTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet16.TenantTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet16">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet16TableAdapters.ApartTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet16TableAdapters.CategoryTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet16TableAdapters.LandLordsTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet16TableAdapters.RentTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet16TableAdapters.TenantTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet16TableAdapters.TableAdapterManager.UpdateUpdatedRows(HouseRentMgtsystem.houserentmgtsystemDataSet16,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet16TableAdapters.TableAdapterManager.UpdateInsertedRows(HouseRentMgtsystem.houserentmgtsystemDataSet16,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet16TableAdapters.TableAdapterManager.UpdateDeletedRows(HouseRentMgtsystem.houserentmgtsystemDataSet16,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet16TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet16TableAdapters.TableAdapterManager.UpdateAll(HouseRentMgtsystem.houserentmgtsystemDataSet16)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet16TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet16TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet16TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet19.ApartTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet19.CategoryTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet19.LandLordsTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet19.RentTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet19.TenantTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet19.ApartTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet19.CategoryTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet19.LandLordsTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet19.RentTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet19.TenantTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet19.ApartTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet19.CategoryTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet19.LandLordsTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet19.RentTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet19.TenantTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet19">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet19TableAdapters.ApartTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet19TableAdapters.CategoryTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet19TableAdapters.LandLordsTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet19TableAdapters.RentTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet19TableAdapters.TenantTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet19TableAdapters.TableAdapterManager.UpdateUpdatedRows(HouseRentMgtsystem.houserentmgtsystemDataSet19,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet19TableAdapters.TableAdapterManager.UpdateInsertedRows(HouseRentMgtsystem.houserentmgtsystemDataSet19,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet19TableAdapters.TableAdapterManager.UpdateDeletedRows(HouseRentMgtsystem.houserentmgtsystemDataSet19,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet19TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet19TableAdapters.TableAdapterManager.UpdateAll(HouseRentMgtsystem.houserentmgtsystemDataSet19)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet19TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet19TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet19TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet1.ApartTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet1.CategoryTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet1.LandLordsTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet1.RentTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet1.TenantTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet1.ApartTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet1.CategoryTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet1.LandLordsTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet1.RentTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet1.TenantTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet1.ApartTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet1.CategoryTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet1.LandLordsTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet1.RentTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet1.TenantTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet1TableAdapters.ApartTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet1TableAdapters.CategoryTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet1TableAdapters.LandLordsTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet1TableAdapters.RentTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet1TableAdapters.TenantTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(HouseRentMgtsystem.houserentmgtsystemDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(HouseRentMgtsystem.houserentmgtsystemDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(HouseRentMgtsystem.houserentmgtsystemDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet1TableAdapters.TableAdapterManager.UpdateAll(HouseRentMgtsystem.houserentmgtsystemDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet22.ApartTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet22.CategoryTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet22.LandLordsTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet22.RentTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet22.TenantTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet22.ApartTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet22.CategoryTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet22.LandLordsTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet22.RentTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet22.TenantTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet22.ApartTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet22.CategoryTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet22.LandLordsTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet22.RentTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet22.TenantTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet22">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet22TableAdapters.ApartTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet22TableAdapters.CategoryTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet22TableAdapters.LandLordsTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet22TableAdapters.RentTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet22TableAdapters.TenantTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet22TableAdapters.TableAdapterManager.UpdateUpdatedRows(HouseRentMgtsystem.houserentmgtsystemDataSet22,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet22TableAdapters.TableAdapterManager.UpdateInsertedRows(HouseRentMgtsystem.houserentmgtsystemDataSet22,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet22TableAdapters.TableAdapterManager.UpdateDeletedRows(HouseRentMgtsystem.houserentmgtsystemDataSet22,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet22TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet22TableAdapters.TableAdapterManager.UpdateAll(HouseRentMgtsystem.houserentmgtsystemDataSet22)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet22TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet22TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet22TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet25.ApartTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet25.CategoryTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet25.LandLordsTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet25.RentTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet25.TenantTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet25.ApartTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet25.CategoryTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet25.LandLordsTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet25.RentTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet25.TenantTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet25.ApartTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet25.CategoryTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet25.LandLordsTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet25.RentTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet25.TenantTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet25">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet25TableAdapters.ApartTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet25TableAdapters.CategoryTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet25TableAdapters.LandLordsTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet25TableAdapters.RentTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet25TableAdapters.TenantTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet25TableAdapters.TableAdapterManager.UpdateUpdatedRows(HouseRentMgtsystem.houserentmgtsystemDataSet25,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet25TableAdapters.TableAdapterManager.UpdateInsertedRows(HouseRentMgtsystem.houserentmgtsystemDataSet25,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet25TableAdapters.TableAdapterManager.UpdateDeletedRows(HouseRentMgtsystem.houserentmgtsystemDataSet25,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet25TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet25TableAdapters.TableAdapterManager.UpdateAll(HouseRentMgtsystem.houserentmgtsystemDataSet25)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet25TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet25TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet25TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet4.ApartTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet4.CategoryTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet4.LandLordsTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet4.RentTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet4.TenantTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet4.ApartTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet4.CategoryTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet4.LandLordsTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet4.RentTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet4.TenantTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet4.ApartTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet4.CategoryTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet4.LandLordsTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet4.RentTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet4.TenantTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet4">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet4TableAdapters.ApartTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet4TableAdapters.CategoryTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet4TableAdapters.LandLordsTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet4TableAdapters.RentTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet4TableAdapters.TenantTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(HouseRentMgtsystem.houserentmgtsystemDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(HouseRentMgtsystem.houserentmgtsystemDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(HouseRentMgtsystem.houserentmgtsystemDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet4TableAdapters.TableAdapterManager.UpdateAll(HouseRentMgtsystem.houserentmgtsystemDataSet4)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet4TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet7.ApartTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet7.CategoryTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet7.LandLordsTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet7.RentTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet7.TenantTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet7.ApartTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet7.CategoryTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet7.LandLordsTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet7.RentTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet7.TenantTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet7.ApartTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet7.CategoryTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet7.LandLordsTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet7.RentTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet7.TenantTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet7">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet7TableAdapters.ApartTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet7TableAdapters.CategoryTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet7TableAdapters.LandLordsTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet7TableAdapters.RentTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet7TableAdapters.TenantTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(HouseRentMgtsystem.houserentmgtsystemDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(HouseRentMgtsystem.houserentmgtsystemDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(HouseRentMgtsystem.houserentmgtsystemDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet7TableAdapters.TableAdapterManager.UpdateAll(HouseRentMgtsystem.houserentmgtsystemDataSet7)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet7TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet12.ApartTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet12.CategoryTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet12.LandLordsTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet12.RentTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet12.TenantTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet12.ApartTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet12.CategoryTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet12.LandLordsTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet12.RentTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet12.TenantTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet12.ApartTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet12.CategoryTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet12.LandLordsTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet12.RentTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet12.TenantTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet12">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet12TableAdapters.ApartTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet12TableAdapters.CategoryTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet12TableAdapters.LandLordsTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet12TableAdapters.RentTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet12TableAdapters.TenantTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet12TableAdapters.TableAdapterManager.UpdateUpdatedRows(HouseRentMgtsystem.houserentmgtsystemDataSet12,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet12TableAdapters.TableAdapterManager.UpdateInsertedRows(HouseRentMgtsystem.houserentmgtsystemDataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet12TableAdapters.TableAdapterManager.UpdateDeletedRows(HouseRentMgtsystem.houserentmgtsystemDataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet12TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet12TableAdapters.TableAdapterManager.UpdateAll(HouseRentMgtsystem.houserentmgtsystemDataSet12)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet12TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet12TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet12TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet15.ApartTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet15.CategoryTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet15.LandLordsTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet15.RentTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet15.TenantTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet15.ApartTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet15.CategoryTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet15.LandLordsTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet15.RentTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet15.TenantTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet15.ApartTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet15.CategoryTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet15.LandLordsTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet15.RentTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet15.TenantTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet15">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet15TableAdapters.ApartTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet15TableAdapters.CategoryTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet15TableAdapters.LandLordsTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet15TableAdapters.RentTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet15TableAdapters.TenantTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet15TableAdapters.TableAdapterManager.UpdateUpdatedRows(HouseRentMgtsystem.houserentmgtsystemDataSet15,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet15TableAdapters.TableAdapterManager.UpdateInsertedRows(HouseRentMgtsystem.houserentmgtsystemDataSet15,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet15TableAdapters.TableAdapterManager.UpdateDeletedRows(HouseRentMgtsystem.houserentmgtsystemDataSet15,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet15TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet15TableAdapters.TableAdapterManager.UpdateAll(HouseRentMgtsystem.houserentmgtsystemDataSet15)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet15TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet15TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet15TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet18.ApartTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet18.CategoryTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet18.LandLordsTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet18.RentTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet18.TenantTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet18.ApartTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet18.CategoryTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet18.LandLordsTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet18.RentTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet18.TenantTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet18.ApartTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet18.CategoryTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet18.LandLordsTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet18.RentTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet18.TenantTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet18">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet18TableAdapters.ApartTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet18TableAdapters.CategoryTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet18TableAdapters.LandLordsTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet18TableAdapters.RentTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet18TableAdapters.TenantTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet18TableAdapters.TableAdapterManager.UpdateUpdatedRows(HouseRentMgtsystem.houserentmgtsystemDataSet18,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet18TableAdapters.TableAdapterManager.UpdateInsertedRows(HouseRentMgtsystem.houserentmgtsystemDataSet18,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet18TableAdapters.TableAdapterManager.UpdateDeletedRows(HouseRentMgtsystem.houserentmgtsystemDataSet18,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet18TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet18TableAdapters.TableAdapterManager.UpdateAll(HouseRentMgtsystem.houserentmgtsystemDataSet18)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet18TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet18TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet18TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet21.ApartTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet21.CategoryTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet21.LandLordsTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet21.RentTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet21.TenantTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet21.ApartTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet21.CategoryTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet21.LandLordsTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet21.RentTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet21.TenantTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet21.ApartTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet21.CategoryTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet21.LandLordsTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet21.RentTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet21.TenantTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet21">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet21TableAdapters.ApartTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet21TableAdapters.CategoryTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet21TableAdapters.LandLordsTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet21TableAdapters.RentTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet21TableAdapters.TenantTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet21TableAdapters.TableAdapterManager.UpdateUpdatedRows(HouseRentMgtsystem.houserentmgtsystemDataSet21,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet21TableAdapters.TableAdapterManager.UpdateInsertedRows(HouseRentMgtsystem.houserentmgtsystemDataSet21,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet21TableAdapters.TableAdapterManager.UpdateDeletedRows(HouseRentMgtsystem.houserentmgtsystemDataSet21,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet21TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSet21TableAdapters.TableAdapterManager.UpdateAll(HouseRentMgtsystem.houserentmgtsystemDataSet21)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet21TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet21TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet21TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet.TenantTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet.ApartTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet.CategoryTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet.LandLordsTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet.RentTb1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet.TenantTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet.ApartTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet.CategoryTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet.LandLordsTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet.RentTb1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet.TenantTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet.ApartTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet.CategoryTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet.LandLordsTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet.RentTb1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSetTableAdapters.TenantTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSetTableAdapters.ApartTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSetTableAdapters.CategoryTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSetTableAdapters.LandLordsTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSetTableAdapters.RentTb1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(HouseRentMgtsystem.houserentmgtsystemDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(HouseRentMgtsystem.houserentmgtsystemDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(HouseRentMgtsystem.houserentmgtsystemDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HouseRentMgtsystem.houserentmgtsystemDataSetTableAdapters.TableAdapterManager.UpdateAll(HouseRentMgtsystem.houserentmgtsystemDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HouseRentMgtsystem.houserentmgtsystemDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,37 @@
+C:\Users\admin\AppData\Local\Temporary Projects\HouseRentMgtsystem\bin\Debug\HouseRentMgtsystem.exe
+C:\Users\admin\AppData\Local\Temporary Projects\HouseRentMgtsystem\bin\Debug\HouseRentMgtsystem.pdb
+C:\Users\admin\AppData\Local\Temporary Projects\HouseRentMgtsystem\bin\Debug\HouseRentMgtsystem.xml
+C:\Users\admin\AppData\Local\Temporary Projects\HouseRentMgtsystem\obj\x86\Debug\HouseRentMgtsystem.tenants.resources
+C:\Users\admin\AppData\Local\Temporary Projects\HouseRentMgtsystem\obj\x86\Debug\HouseRentMgtsystem.Resources.resources
+C:\Users\admin\AppData\Local\Temporary Projects\HouseRentMgtsystem\obj\x86\Debug\HouseRentMgtsystem.vbproj.GenerateResource.Cache
+C:\Users\admin\AppData\Local\Temporary Projects\HouseRentMgtsystem\obj\x86\Debug\HouseRentMgtsystem.exe
+C:\Users\admin\AppData\Local\Temporary Projects\HouseRentMgtsystem\obj\x86\Debug\HouseRentMgtsystem.xml
+C:\Users\admin\AppData\Local\Temporary Projects\HouseRentMgtsystem\obj\x86\Debug\HouseRentMgtsystem.pdb
+C:\Users\admin\documents\visual studio 2010\Projects\HouseRentMgtsystem\HouseRentMgtsystem\obj\x86\Debug\HouseRentMgtsystem.exe
+C:\Users\admin\documents\visual studio 2010\Projects\HouseRentMgtsystem\HouseRentMgtsystem\obj\x86\Debug\HouseRentMgtsystem.xml
+C:\Users\admin\documents\visual studio 2010\Projects\HouseRentMgtsystem\HouseRentMgtsystem\obj\x86\Debug\HouseRentMgtsystem.pdb
+C:\Users\admin\documents\visual studio 2010\Projects\HouseRentMgtsystem\HouseRentMgtsystem\bin\Debug\HouseRentMgtsystem.exe
+C:\Users\admin\documents\visual studio 2010\Projects\HouseRentMgtsystem\HouseRentMgtsystem\bin\Debug\HouseRentMgtsystem.pdb
+C:\Users\admin\documents\visual studio 2010\Projects\HouseRentMgtsystem\HouseRentMgtsystem\bin\Debug\HouseRentMgtsystem.xml
+C:\Users\admin\documents\visual studio 2010\Projects\HouseRentMgtsystem\HouseRentMgtsystem\obj\x86\Debug\HouseRentMgtsystem.tenants.resources
+C:\Users\admin\documents\visual studio 2010\Projects\HouseRentMgtsystem\HouseRentMgtsystem\obj\x86\Debug\HouseRentMgtsystem.Resources.resources
+C:\Users\admin\documents\visual studio 2010\Projects\HouseRentMgtsystem\HouseRentMgtsystem\obj\x86\Debug\HouseRentMgtsystem.vbproj.GenerateResource.Cache
+C:\Users\admin\documents\visual studio 2010\Projects\HouseRentMgtsystem\HouseRentMgtsystem\obj\x86\Debug\HouseRentMgtsystem.apartments.resources
+C:\Users\admin\documents\visual studio 2010\Projects\HouseRentMgtsystem\HouseRentMgtsystem\obj\x86\Debug\HouseRentMgtsystem.landlords.resources
+C:\Users\admin\documents\visual studio 2010\Projects\HouseRentMgtsystem\HouseRentMgtsystem\obj\x86\Debug\HouseRentMgtsystem.rent.resources
+C:\Users\admin\documents\visual studio 2010\Projects\HouseRentMgtsystem\HouseRentMgtsystem\obj\x86\Debug\HouseRentMgtsystem.categories.resources
+C:\Users\admin\documents\visual studio 2010\Projects\HouseRentMgtsystem\HouseRentMgtsystem\bin\Debug\HOUSERENTMGTSYSTEM.sdf
+C:\Users\admin\documents\visual studio 2010\Projects\HouseRentMgtsystem\HouseRentMgtsystem\bin\Debug\HouseRentMgtsystem.exe.config
+C:\Users\admin\documents\visual studio 2010\Projects\HouseRentMgtsystem\HouseRentMgtsystem\obj\x86\Debug\HouseRentMgtsystem.vbprojResolveAssemblyReference.cache
+C:\Vaishu\Project Copy\HouseRentMgtsystem\HouseRentMgtsystem\obj\x86\Debug\HouseRentMgtsystem.vbproj.AssemblyReference.cache
+C:\Vaishu\Project Copy\HouseRentMgtsystem\HouseRentMgtsystem\obj\x86\Debug\HouseRentMgtsystem.vbproj.SuggestedBindingRedirects.cache
+C:\Vaishu\Project Copy\HouseRentMgtsystem\HouseRentMgtsystem\obj\x86\Debug\HouseRentMgtsystem.Apartments.resources
+C:\Vaishu\Project Copy\HouseRentMgtsystem\HouseRentMgtsystem\obj\x86\Debug\HouseRentMgtsystem.categories.resources
+C:\Vaishu\Project Copy\HouseRentMgtsystem\HouseRentMgtsystem\obj\x86\Debug\HouseRentMgtsystem.landlords.resources
+C:\Vaishu\Project Copy\HouseRentMgtsystem\HouseRentMgtsystem\obj\x86\Debug\HouseRentMgtsystem.rent.resources
+C:\Vaishu\Project Copy\HouseRentMgtsystem\HouseRentMgtsystem\obj\x86\Debug\HouseRentMgtsystem.Resources.resources
+C:\Vaishu\Project Copy\HouseRentMgtsystem\HouseRentMgtsystem\obj\x86\Debug\HouseRentMgtsystem.tenants.resources
+C:\Vaishu\Project Copy\HouseRentMgtsystem\HouseRentMgtsystem\obj\x86\Debug\HouseRentMgtsystem.vbproj.GenerateResource.cache
+C:\Vaishu\Project Copy\HouseRentMgtsystem\HouseRentMgtsystem\obj\x86\Debug\HouseRentMgtsystem.exe
+C:\Vaishu\Project Copy\HouseRentMgtsystem\HouseRentMgtsystem\obj\x86\Debug\HouseRentMgtsystem.xml
+C:\Vaishu\Project Copy\HouseRentMgtsystem\HouseRentMgtsystem\obj\x86\Debug\HouseRentMgtsystem.pdb

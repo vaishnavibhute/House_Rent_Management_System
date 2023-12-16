@@ -1,0 +1,11 @@
+﻿CREATE TABLE [dbo].[Table]
+(
+	[ANum] INT NOT NULL PRIMARY KEY IDENTITY(200,1), 
+    [AName] VARCHAR(50) NOT NULL, 
+    [AAddress] VARCHAR(50) NOT NULL, 
+    [AType] INT NOT NULL, 
+    [ACost] INT NOT NULL, 
+    [Owner] INT NOT NULL, 
+    CONSTRAINT [FK3] FOREIGN KEY ([AType]) REFERENCES [CategoryTb1]([CNum]), 
+    CONSTRAINT [FK4] FOREIGN KEY ([Owner]) REFERENCES [LandLordTb1]([LLId])
+)

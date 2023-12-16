@@ -1,0 +1,750 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6751D235-909F-475E-8477-1E8A769B73F3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>HouseRentMgtsystem.My.MyApplication</StartupObject>
+    <RootNamespace>HouseRentMgtsystem</RootNamespace>
+    <AssemblyName>HouseRentMgtsystem</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>HouseRentMgtsystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>HouseRentMgtsystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>6C8DCB083F3CBD0FA0D441A79EB25B94BBEC9334</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>HouseRentMgtsystem_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Synchronization, Version=1.0.0.0" />
+    <Reference Include="Microsoft.Synchronization.Data, Version=2.0.0.0" />
+    <Reference Include="Microsoft.Synchronization.Data.Server, Version=2.0.0.0" />
+    <Reference Include="Microsoft.Synchronization.Data.SqlServerCe, Version=2.0.0.0" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Apartments.Designer.vb">
+      <DependentUpon>Apartments.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Apartments.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="categories.Designer.vb">
+      <DependentUpon>categories.vb</DependentUpon>
+    </Compile>
+    <Compile Include="categories.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="houserentmgtsystemCache.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houserentmgtsystemCache.sync</DependentUpon>
+    </Compile>
+    <Compile Include="houserentmgtsystemDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houserentmgtsystemDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houserentmgtsystemDataSet10.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houserentmgtsystemDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houserentmgtsystemDataSet11.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houserentmgtsystemDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houserentmgtsystemDataSet12.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houserentmgtsystemDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houserentmgtsystemDataSet13.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houserentmgtsystemDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houserentmgtsystemDataSet14.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houserentmgtsystemDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houserentmgtsystemDataSet15.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houserentmgtsystemDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houserentmgtsystemDataSet16.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houserentmgtsystemDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houserentmgtsystemDataSet17.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houserentmgtsystemDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houserentmgtsystemDataSet18.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houserentmgtsystemDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houserentmgtsystemDataSet19.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houserentmgtsystemDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houserentmgtsystemDataSet20.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houserentmgtsystemDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houserentmgtsystemDataSet21.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houserentmgtsystemDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houserentmgtsystemDataSet211.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houserentmgtsystemDataSet211.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houserentmgtsystemDataSet22.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houserentmgtsystemDataSet22.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houserentmgtsystemDataSet23.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houserentmgtsystemDataSet23.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houserentmgtsystemDataSet24.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houserentmgtsystemDataSet24.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houserentmgtsystemDataSet25.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houserentmgtsystemDataSet25.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houserentmgtsystemDataSet26.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houserentmgtsystemDataSet26.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HouseRentMgtSystemDataSet27.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HouseRentMgtSystemDataSet27.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houserentmgtsystemDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houserentmgtsystemDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houserentmgtsystemDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houserentmgtsystemDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houserentmgtsystemDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houserentmgtsystemDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houserentmgtsystemDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houserentmgtsystemDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houserentmgtsystemDataSet7.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houserentmgtsystemDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houserentmgtsystemDataSet8.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houserentmgtsystemDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="houserentmgtsystemDataSet9.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>houserentmgtsystemDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="landlords.Designer.vb">
+      <DependentUpon>landlords.vb</DependentUpon>
+    </Compile>
+    <Compile Include="landlords.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rent.Designer.vb">
+      <DependentUpon>rent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="tenants.Designer.vb">
+      <DependentUpon>tenants.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tenants.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Apartments.resx">
+      <DependentUpon>Apartments.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="categories.resx">
+      <DependentUpon>categories.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="landlords.resx">
+      <DependentUpon>landlords.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rent.resx">
+      <DependentUpon>rent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tenants.resx">
+      <DependentUpon>tenants.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="houserentmgtsystemCache.sync">
+      <Generator>MSDataSyncGenerator</Generator>
+      <LastGenOutput>houserentmgtsystemCache.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houserentmgtsystemDataSet.xsc">
+      <DependentUpon>houserentmgtsystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houserentmgtsystemDataSet.xss">
+      <DependentUpon>houserentmgtsystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet1.xsc">
+      <DependentUpon>houserentmgtsystemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houserentmgtsystemDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houserentmgtsystemDataSet1.xss">
+      <DependentUpon>houserentmgtsystemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet10.xsc">
+      <DependentUpon>houserentmgtsystemDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houserentmgtsystemDataSet10.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houserentmgtsystemDataSet10.xss">
+      <DependentUpon>houserentmgtsystemDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet11.xsc">
+      <DependentUpon>houserentmgtsystemDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houserentmgtsystemDataSet11.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houserentmgtsystemDataSet11.xss">
+      <DependentUpon>houserentmgtsystemDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet12.xsc">
+      <DependentUpon>houserentmgtsystemDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houserentmgtsystemDataSet12.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houserentmgtsystemDataSet12.xss">
+      <DependentUpon>houserentmgtsystemDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet13.xsc">
+      <DependentUpon>houserentmgtsystemDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houserentmgtsystemDataSet13.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houserentmgtsystemDataSet13.xss">
+      <DependentUpon>houserentmgtsystemDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet14.xsc">
+      <DependentUpon>houserentmgtsystemDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houserentmgtsystemDataSet14.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houserentmgtsystemDataSet14.xss">
+      <DependentUpon>houserentmgtsystemDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet15.xsc">
+      <DependentUpon>houserentmgtsystemDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houserentmgtsystemDataSet15.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houserentmgtsystemDataSet15.xss">
+      <DependentUpon>houserentmgtsystemDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet16.xsc">
+      <DependentUpon>houserentmgtsystemDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houserentmgtsystemDataSet16.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houserentmgtsystemDataSet16.xss">
+      <DependentUpon>houserentmgtsystemDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet17.xsc">
+      <DependentUpon>houserentmgtsystemDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houserentmgtsystemDataSet17.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houserentmgtsystemDataSet17.xss">
+      <DependentUpon>houserentmgtsystemDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet18.xsc">
+      <DependentUpon>houserentmgtsystemDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houserentmgtsystemDataSet18.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houserentmgtsystemDataSet18.xss">
+      <DependentUpon>houserentmgtsystemDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet19.xsc">
+      <DependentUpon>houserentmgtsystemDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houserentmgtsystemDataSet19.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houserentmgtsystemDataSet19.xss">
+      <DependentUpon>houserentmgtsystemDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet20.xsc">
+      <DependentUpon>houserentmgtsystemDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houserentmgtsystemDataSet20.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houserentmgtsystemDataSet20.xss">
+      <DependentUpon>houserentmgtsystemDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet21.xsc">
+      <DependentUpon>houserentmgtsystemDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houserentmgtsystemDataSet21.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houserentmgtsystemDataSet21.xss">
+      <DependentUpon>houserentmgtsystemDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet211.xsc">
+      <DependentUpon>houserentmgtsystemDataSet211.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet211.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houserentmgtsystemDataSet211.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houserentmgtsystemDataSet211.xss">
+      <DependentUpon>houserentmgtsystemDataSet211.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet22.xsc">
+      <DependentUpon>houserentmgtsystemDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet22.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houserentmgtsystemDataSet22.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houserentmgtsystemDataSet22.xss">
+      <DependentUpon>houserentmgtsystemDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet23.xsc">
+      <DependentUpon>houserentmgtsystemDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet23.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houserentmgtsystemDataSet23.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houserentmgtsystemDataSet23.xss">
+      <DependentUpon>houserentmgtsystemDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet24.xsc">
+      <DependentUpon>houserentmgtsystemDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet24.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houserentmgtsystemDataSet24.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houserentmgtsystemDataSet24.xss">
+      <DependentUpon>houserentmgtsystemDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet25.xsc">
+      <DependentUpon>houserentmgtsystemDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet25.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houserentmgtsystemDataSet25.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houserentmgtsystemDataSet25.xss">
+      <DependentUpon>houserentmgtsystemDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet26.xsc">
+      <DependentUpon>houserentmgtsystemDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet26.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houserentmgtsystemDataSet26.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houserentmgtsystemDataSet26.xss">
+      <DependentUpon>houserentmgtsystemDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="HouseRentMgtSystemDataSet27.xsc">
+      <DependentUpon>HouseRentMgtSystemDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="HouseRentMgtSystemDataSet27.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HouseRentMgtSystemDataSet27.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HouseRentMgtSystemDataSet27.xss">
+      <DependentUpon>HouseRentMgtSystemDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet3.xsc">
+      <DependentUpon>houserentmgtsystemDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houserentmgtsystemDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houserentmgtsystemDataSet3.xss">
+      <DependentUpon>houserentmgtsystemDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet4.xsc">
+      <DependentUpon>houserentmgtsystemDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houserentmgtsystemDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houserentmgtsystemDataSet4.xss">
+      <DependentUpon>houserentmgtsystemDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet5.xsc">
+      <DependentUpon>houserentmgtsystemDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houserentmgtsystemDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houserentmgtsystemDataSet5.xss">
+      <DependentUpon>houserentmgtsystemDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet6.xsc">
+      <DependentUpon>houserentmgtsystemDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houserentmgtsystemDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houserentmgtsystemDataSet6.xss">
+      <DependentUpon>houserentmgtsystemDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet7.xsc">
+      <DependentUpon>houserentmgtsystemDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houserentmgtsystemDataSet7.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houserentmgtsystemDataSet7.xss">
+      <DependentUpon>houserentmgtsystemDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet8.xsc">
+      <DependentUpon>houserentmgtsystemDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houserentmgtsystemDataSet8.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houserentmgtsystemDataSet8.xss">
+      <DependentUpon>houserentmgtsystemDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet9.xsc">
+      <DependentUpon>houserentmgtsystemDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="houserentmgtsystemDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>houserentmgtsystemDataSet9.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="houserentmgtsystemDataSet9.xss">
+      <DependentUpon>houserentmgtsystemDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="HouseRentMgtsystem_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSources\apartments.datasource" />
+    <None Include="My Project\DataSources\categories.datasource" />
+    <None Include="My Project\DataSources\HouseRentMgtsystem.houserentmgtsystemDataSetTableAdapters.ApartTb1TableAdapter.datasource" />
+    <None Include="My Project\DataSources\HouseRentMgtsystem.houserentmgtsystemDataSetTableAdapters.CategoryTb1TableAdapter.datasource" />
+    <None Include="My Project\DataSources\HouseRentMgtsystem.houserentmgtsystemDataSetTableAdapters.LandLordsTb1TableAdapter.datasource" />
+    <None Include="My Project\DataSources\HouseRentMgtsystem.houserentmgtsystemDataSetTableAdapters.RentTb1TableAdapter.datasource" />
+    <None Include="My Project\DataSources\HouseRentMgtsystem.houserentmgtsystemDataSetTableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="My Project\DataSources\HouseRentMgtsystem.houserentmgtsystemDataSetTableAdapters.TableAdapterManager.datasource" />
+    <None Include="My Project\DataSources\HouseRentMgtsystem.houserentmgtsystemDataSetTableAdapters.TenantTb1TableAdapter.datasource" />
+    <None Include="My Project\DataSources\HouseRentMgtsystem.My.MyApplication.datasource" />
+    <None Include="My Project\DataSources\HouseRentMgtsystem.My.MySettings.datasource" />
+    <None Include="My Project\DataSources\houserentmgtsystemCacheClientSyncProvider.datasource" />
+    <None Include="My Project\DataSources\houserentmgtsystemCacheServerSyncProvider.datasource" />
+    <None Include="My Project\DataSources\houserentmgtsystemCacheSyncAgent.datasource" />
+    <None Include="My Project\DataSources\houserentmgtsystemCacheSyncAgent.TenantTb1SyncTable.datasource" />
+    <None Include="My Project\DataSources\houserentmgtsystemDataSet.ApartTb1DataTable.datasource" />
+    <None Include="My Project\DataSources\houserentmgtsystemDataSet.ApartTb1Row.datasource" />
+    <None Include="My Project\DataSources\houserentmgtsystemDataSet.ApartTb1RowChangeEvent.datasource" />
+    <None Include="My Project\DataSources\houserentmgtsystemDataSet.ApartTb1RowChangeEventHandler.datasource" />
+    <None Include="My Project\DataSources\houserentmgtsystemDataSet.CategoryTb1DataTable.datasource" />
+    <None Include="My Project\DataSources\houserentmgtsystemDataSet.CategoryTb1Row.datasource" />
+    <None Include="My Project\DataSources\houserentmgtsystemDataSet.CategoryTb1RowChangeEvent.datasource" />
+    <None Include="My Project\DataSources\houserentmgtsystemDataSet.CategoryTb1RowChangeEventHandler.datasource" />
+    <None Include="My Project\DataSources\houserentmgtsystemDataSet.datasource" />
+    <None Include="My Project\DataSources\houserentmgtsystemDataSet.LandLordsTb1DataTable.datasource" />
+    <None Include="My Project\DataSources\houserentmgtsystemDataSet.LandLordsTb1Row.datasource" />
+    <None Include="My Project\DataSources\houserentmgtsystemDataSet.LandLordsTb1RowChangeEvent.datasource" />
+    <None Include="My Project\DataSources\houserentmgtsystemDataSet.LandLordsTb1RowChangeEventHandler.datasource" />
+    <None Include="My Project\DataSources\houserentmgtsystemDataSet.RentTb1DataTable.datasource" />
+    <None Include="My Project\DataSources\houserentmgtsystemDataSet.RentTb1Row.datasource" />
+    <None Include="My Project\DataSources\houserentmgtsystemDataSet.RentTb1RowChangeEvent.datasource" />
+    <None Include="My Project\DataSources\houserentmgtsystemDataSet.RentTb1RowChangeEventHandler.datasource" />
+    <None Include="My Project\DataSources\houserentmgtsystemDataSet.TenantTb1DataTable.datasource" />
+    <None Include="My Project\DataSources\houserentmgtsystemDataSet.TenantTb1Row.datasource" />
+    <None Include="My Project\DataSources\houserentmgtsystemDataSet.TenantTb1RowChangeEvent.datasource" />
+    <None Include="My Project\DataSources\houserentmgtsystemDataSet.TenantTb1RowChangeEventHandler.datasource" />
+    <None Include="My Project\DataSources\landlords.datasource" />
+    <None Include="My Project\DataSources\rent.datasource" />
+    <None Include="My Project\DataSources\tenants.datasource" />
+    <None Include="My Project\DataSources\TenantTb1SyncAdapter.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HouseRentMgtSystem.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="HOUSERENTMGTSYSTEM.sdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\images %281%29.jpeg" />
+    <None Include="Resources\images %283%29.jpeg" />
+    <None Include="Resources\images %283%291.jpeg" />
+    <None Include="Resources\download %282%29.png" />
+    <None Include="Resources\download.png" />
+    <None Include="Resources\download %281%29.png" />
+    <None Include="Resources\images %281%29.png" />
+    <None Include="Resources\images.png" />
+    <None Include="Resources\images1.png" />
+    <None Include="Resources\images.jpeg" />
+    <Content Include="HouseRentMgtSystem_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>HouseRentMgtSystem.mdf</DependentUpon>
+    </Content>
+    <Content Include="SQLScripts\houserentmgtsystemCache.dbo.TenantTb1.sql" />
+    <Content Include="SQLScripts\houserentmgtsystemCache.HOUSERENTMGTSYSTEM.sql" />
+    <Content Include="SQLUndoScripts\houserentmgtsystemCache.dbo.TenantTb1.disable.sql" />
+    <Content Include="SQLUndoScripts\houserentmgtsystemCache.HOUSERENTMGTSYSTEM.disable.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.3.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 3.5 SP2</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
